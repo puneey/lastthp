@@ -247,11 +247,11 @@ class Bot(discord.Client):
 
 			
 
-        self.embed=discord.Embed(title="**TECHNO TRIVIA**\n Crowd Result....", description=f"Option 1⃣: {lst_scores[0]}{one_check}{bold1}\nOption 2⃣: {lst_scores[1]}{two_check}{bold2}\nOption 3⃣: {lst_scores[2]} {three_check}{bold3}\n**Suggest Answer:-**\n{suggest_answer}\n**Wrong Answer:-**\n{wrong_answer}\n",color=2577281)
+        self.embed=discord.Embed(title="**HQ TRIVIA**\n Crowd Result....", description=f"Option 1⃣: {lst_scores[0]}{one_check}{bold1}\nOption 2⃣: {lst_scores[1]}{two_check}{bold2}\nOption 3⃣: {lst_scores[2]} {three_check}{bold3}\n**Suggest Answer:-**\n{suggest_answer}\n**Wrong Answer:-**\n{wrong_answer}\n",color=2577281)
 
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/720845263111061545/721748526144421949/721352445019684977.gif")
 
-        self.embed.set_footer(text=f"TECHNO TRIVIA",icon_url="https://cdn.discordapp.com/attachments/717881240304484393/718844622985494638/hq_logo.png")
+        self.embed.set_footer(text=f"ADITYA#0958",icon_url="https://cdn.discordapp.com/attachments/717881240304484393/718844622985494638/hq_logo.png")
 	
         if self.embed_msg is not None:
             await self.embed_msg.edit(embed=self.embed)
@@ -274,7 +274,7 @@ class Bot(discord.Client):
         if message.author == self.user or message.guild == None:
             return
 
-        if message.content.lower() == "+h":
+        if message.content.lower() == "hq":
             #await message.delete()
            # if BOT_OWNER_ROLE in []:
             self.embed_msg = None
@@ -315,7 +315,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NzIxMDQzODUyNjQ3MDcxODQ0.XuYvFg.mMY5RCJpmV0U0i0jnqTeFntosH8'))
+    loop.create_task(bot.start('NzI2Nzc3ODc0NzE1MjQ2NjUy.XviOvA.dtFfmi-RttQvvX4wMHrD-rgSiU0'))
     loop.run_forever()
 
 

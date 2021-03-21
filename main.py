@@ -230,15 +230,15 @@ class Bot(discord.Client):
          
 	 if answer==4:
 
-           four_check="<a:ii:714506561187217489>"
+            four_check="<a:ii:714506561187217489>"
 
-           suggest_answer="Answer 4⃣:white_check_mark:"
+            suggest_answer="Answer 4⃣:white_check_mark:"
 
-           wrong_answer="Answer 2️⃣<:emoji_14:716227488266846259>"	
+            wrong_answer="Answer 2️⃣<:emoji_14:716227488266846259>"	
 
-         if answer==4:
+          if answer==4:
 
-           bold4=""
+            bold4=""
 
          else:
 

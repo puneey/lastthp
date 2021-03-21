@@ -227,27 +227,28 @@ class Bot(discord.Client):
 
             
 
-         # if answer==4:
+         #
+	if answer==4:
 
-          	#four_check="<a:ii:714506561187217489>"
+          	four_check="<a:ii:714506561187217489>"
 
-          	#suggest_answer="Answer 4⃣:white_check_mark:"
+          	suggest_answer="Answer 4⃣:white_check_mark:"
 
-            #wrong_answer="Answer 2️⃣<:emoji_14:716227488266846259>"	
+            wrong_answer="Answer 2️⃣<:emoji_14:716227488266846259>"	
 
-          #if answer==4:
+          if answer==4:
 
-          	#bold4=""
+          	bold4=""
 
-         #else:
+         else:
 
-          	#bold4=""
+          	bold4=""
 
  #add your games deailts and server name etc. what you need you can change         
 
 			
 
-        self.embed=discord.Embed(title="**HQ TRIVIA**\n Crowd Result....", description=f"Option 1⃣: {lst_scores[0]}{one_check}{bold1}\nOption 2⃣: {lst_scores[1]}{two_check}{bold2}\nOption 3⃣: {lst_scores[2]} {three_check}{bold3}\n**Suggest Answer:-**\n{suggest_answer}\n**Wrong Answer:-**\n{wrong_answer}\n",color=2577281)
+        self.embed=discord.Embed(title="**HQ TRIVIA**\n Crowd Result....", description=f"Option 1⃣: {lst_scores[0]}{one_check}{bold1}\nOption 2⃣: {lst_scores[1]}{two_check}{bold2}\nOption 3⃣: {lst_scores[2]} {three_check}{bold3}\nOption 4: {lst_scores[1]}{four_check}{bold4}\n**Suggest Answer:-**\n{suggest_answer}\n**Wrong Answer:-**\n{wrong_answer}\n",color=2577281)
 
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/720845263111061545/721748526144421949/721352445019684977.gif")
 

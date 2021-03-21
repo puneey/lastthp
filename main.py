@@ -228,7 +228,7 @@ class Bot(discord.Client):
             
 
          
-	 if answer==4:
+	 if answer==4
 
             four_check="<a:ii:714506561187217489>"
 

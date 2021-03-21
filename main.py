@@ -143,7 +143,7 @@ class Bot(discord.Client):
 
         three_check = ""
 
-        four_check=""
+        four_check= ""
 
         bold1=""
 
